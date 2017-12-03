@@ -1,0 +1,11 @@
+main: ${project.groupId}.${project.name}
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+authors: [${project.organization.name}]
+website: ${project.url}
+commands:
+    disguise:
+        description: Se disfarce como outro jogador!
+        usage: /<command> <nome>
+        permission: playerdisguise.command.disguise
